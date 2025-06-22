@@ -2,6 +2,29 @@
 
 Aplicação **Angular** standalone que permite colar documentos e fazer perguntas sobre eles, com respostas geradas pela **Azure OpenAI**.
 
+Esse tipo de chatbot interno traz vários ganhos práticos para uma organização:
+
+Acesso Instantâneo ao Conhecimento
+Em vez de caçar planilhas, wikis ou pastas de rede, qualquer colaborador cola um trecho de documentação e recebe a resposta contextualizada na hora.
+
+Redução de Sobrecarga de Suporte
+Diminui o volume de perguntas repetitivas ao time de infraestrutura ou ao suporte de produto, liberando esses especialistas para tarefas mais estratégicas.
+
+Onboarding Acelerado
+Novos membros aprendem processos, convenções e detalhes técnicos de forma interativa, sem precisar passar horas lendo guias ou pedindo ajuda.
+
+Consistência e Padronização
+Como todas as respostas vêm de uma única fonte integrada, evita-se a “versão desatualizada” de documentos espalhados por e-mails ou drives.
+
+Escalabilidade e Monitoramento
+Com logs de consulta, você identifica quais tópicos geram mais dúvidas e ajusta a documentação ou treina melhor a equipe.
+
+Arquitetura Modular
+A abordagem standalone do Angular facilita a manutenção, o reuso em outros sistemas internos e o rollout incremental de novas funcionalidades.
+
+Segurança e Confiabilidade
+Rodando sobre Azure OpenAI dentro da rede corporativa, garante-se governança de dados e compliance com políticas internas.
+
 ---
 
 ## 🚀 Começando
