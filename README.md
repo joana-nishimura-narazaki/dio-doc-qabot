@@ -2,28 +2,28 @@
 
 Aplicação **Angular** standalone que permite colar documentos e fazer perguntas sobre eles, com respostas geradas pela **Azure OpenAI**.
 
-Esse tipo de chatbot interno traz vários ganhos práticos para uma organização:
+## Por que este projeto é útil para a empresa
 
-Acesso Instantâneo ao Conhecimento
-Em vez de caçar planilhas, wikis ou pastas de rede, qualquer colaborador cola um trecho de documentação e recebe a resposta contextualizada na hora.
+- **Acesso instantâneo ao conhecimento**  
+  Colaboradores recebem respostas contextuais sem precisar vasculhar wikis, planilhas ou pastas de rede.
 
-Redução de Sobrecarga de Suporte
-Diminui o volume de perguntas repetitivas ao time de infraestrutura ou ao suporte de produto, liberando esses especialistas para tarefas mais estratégicas.
+- **Redução de sobrecarga no suporte**  
+  Diminui o volume de dúvidas repetitivas enviadas ao time de infraestrutura ou produto, liberando-os para tarefas estratégicas.
 
-Onboarding Acelerado
-Novos membros aprendem processos, convenções e detalhes técnicos de forma interativa, sem precisar passar horas lendo guias ou pedindo ajuda.
+- **Onboarding acelerado**  
+  Novos membros aprendem processos e convenções de forma interativa e sem ler longos manuais.
 
-Consistência e Padronização
-Como todas as respostas vêm de uma única fonte integrada, evita-se a “versão desatualizada” de documentos espalhados por e-mails ou drives.
+- **Consistência e padronização**  
+  Centraliza o conteúdo em um único ponto de verdade, evitando versões desatualizadas espalhadas por e-mails ou drives.
 
-Escalabilidade e Monitoramento
-Com logs de consulta, você identifica quais tópicos geram mais dúvidas e ajusta a documentação ou treina melhor a equipe.
+- **Escalabilidade e monitoramento**  
+  Logs de consulta revelam tópicos frequentes de dúvida, permitindo ajustar a documentação e treinar melhor a equipe.
 
-Arquitetura Modular
-A abordagem standalone do Angular facilita a manutenção, o reuso em outros sistemas internos e o rollout incremental de novas funcionalidades.
+- **Arquitetura modular**  
+  O Angular standalone facilita manutenção, reuso em outros sistemas internos e rollout incremental de novas funcionalidades.
 
-Segurança e Confiabilidade
-Rodando sobre Azure OpenAI dentro da rede corporativa, garante-se governança de dados e compliance com políticas internas.
+- **Segurança e governança**  
+  Executado na Azure dentro da rede corporativa, mantém compliance com políticas internas de dados.
 
 ---
 
