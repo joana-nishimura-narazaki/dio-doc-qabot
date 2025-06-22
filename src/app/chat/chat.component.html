@@ -1,0 +1,29 @@
+<div style="max-width:600px;margin:2rem auto;">
+  <h2>Chat de Documentação</h2>
+
+  <label>Documento:</label>
+  <textarea
+    [(ngModel)]="document"
+    rows="6"
+    placeholder="Cole seu texto aqui"
+    style="width:100%;margin-bottom:1rem;">
+  </textarea>
+
+  <label>Pergunta:</label>
+  <input
+    [(ngModel)]="question"
+    placeholder="Faça sua pergunta"
+    style="width:100%;margin-bottom:1rem;padding:0.5rem;" />
+
+  <button
+    (click)="ask()"
+    [disabled]="loading"
+    style="padding:0.5rem 1rem;">
+    {{ loading ? 'Carregando...' : 'Perguntar' }}
+  </button>
+
+  <div *ngIf="answer" style="margin-top:1rem;">
+    <strong>Resposta:</strong>
+    <p>{{ answer }}</p>
+  </div>
+</div>
