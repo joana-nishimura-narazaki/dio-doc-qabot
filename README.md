@@ -42,15 +42,6 @@ ng serve --open
 
 ---
 
-## 📦 Docker (opcional)
-
-```bash
-docker build -t dio-doc-qabot .
-docker run -p 8080:80 dio-doc-qabot
-```
-
----
-
 ## 📄 Estrutura de Pastas
 
 ```
@@ -77,13 +68,5 @@ src/
   * Documentar processos técnicos de forma clara.
   * Utilizar GitHub para compartilhamento da documentação.
 
-## 📑 Recursos Úteis
 
-* [Explore generative AI with Microsoft Copilot - Microsoft Learning](#)
-* [Explore Azure OpenAI - Microsoft Learning](#)
-* [Explore content filters in Azure OpenAI - Microsoft Learning](#)
-* [GitHub Quick Start - DIO](#)
-* [GitHub Markdown Guide](#)
-
----
 
